@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reacthw3/static/css/main.073c9b0a.css",
+    "main.js": "/reacthw3/static/js/main.3eb8cc86.js",
+    "static/js/787.1f9e9b9e.chunk.js": "/reacthw3/static/js/787.1f9e9b9e.chunk.js",
+    "index.html": "/reacthw3/index.html",
+    "main.073c9b0a.css.map": "/reacthw3/static/css/main.073c9b0a.css.map",
+    "main.3eb8cc86.js.map": "/reacthw3/static/js/main.3eb8cc86.js.map",
+    "787.1f9e9b9e.chunk.js.map": "/reacthw3/static/js/787.1f9e9b9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.3eb8cc86.js"
+  ]
+}
