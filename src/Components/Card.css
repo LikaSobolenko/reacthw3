@@ -21,6 +21,12 @@
     top: 50%;
     left: 0;
     transform: translate(0, -50%);
+    font-size: 30px;
+}
+
+sub,
+sup {
+    font-size: 15px;
 }
 
 .speed {
@@ -68,9 +74,11 @@
 }
 
 .selected {
-    .container {
-        width: 300px;
-    }
+    width: 250px;
+    box-shadow: 5px 5px 5px rgb(58, 58, 58);
+}
 
-
+.selectedhead {
+    height: 60px;
+    width: 250px;
 }

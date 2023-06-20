@@ -22,6 +22,8 @@ function App() {
                 speed={100}
                 unlimitedcolor="unlimited_red"
                 pricecolor="price_red"
+                selected="selected"
+                selectedhead="selectedhead"
             />
             <Card
                 price={1000}

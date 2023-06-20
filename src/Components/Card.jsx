@@ -4,18 +4,26 @@ import styles from "./Card.css";
 
 function Card(props) {
     return (
-        <div className="container selected">
-            <div className={`unlimited ${props.unlimitedcolor}`}>
+        <div className={`container ${props.selected}`}>
+            <div
+                className={`unlimited ${props.unlimitedcolor} ${props.selectedhead}`}
+            >
                 Безлимитный {props.price}
             </div>
-            <div className={`price-container ${props.pricecolor}`}>
+            <div
+                className={`price-container ${props.pricecolor} ${props.selected}`}
+            >
                 <div className="price">
-                    <span className="rub">руб</span> <span>{props.price}</span>
-                    <span className="time">/мес</span>
+                    <sup className="rub">руб</sup> <span>{props.price}</span>
+                    <sub className="time">/мес</sub>
                 </div>
             </div>
-            <div className="speed">`до {props.speed} Мбит/сек`</div>
-            <div className="info">Объем включенного трафика не ограничен</div>
+            <div className={`speed ${props.selected}`}>
+                `до {props.speed} Мбит/сек`
+            </div>
+            <div className={`info ${props.selected}`}>
+                Объем включенного трафика не ограничен
+            </div>
         </div>
     );
 }
