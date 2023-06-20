@@ -1,0 +1,76 @@
+.container {
+    width: 200px;
+}
+
+.unlimited {
+    height: 40px;
+    width: 200px;
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+}
+
+.price-container {
+    height: 100px;
+    width: 200px;
+    color: white;
+}
+
+.price {
+    position: relative;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+}
+
+.speed {
+    height: 30px;
+    width: 200px;
+    background-color: rgb(233, 233, 233);
+}
+
+.info {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(213, 213, 213);
+}
+
+.unlimited_blue {
+    background-color: rgb(53, 169, 227);
+}
+
+.price_blue {
+    background-color: rgb(100, 183, 224);
+}
+
+.unlimited_red {
+    background-color: rgb(166, 42, 28);
+}
+
+.price_red {
+    background-color: rgb(159, 78, 69);
+}
+
+.unlimited_green {
+    background-color: rgb(77, 130, 30);
+}
+
+.price_green {
+    background-color: rgb(124, 141, 110);
+}
+
+.unlimited_black {
+    background-color: rgb(14, 15, 16);
+}
+
+.price_black {
+    background-color: rgb(17, 18, 18);
+}
+
+.selected {
+    .container {
+        width: 300px;
+    }
+
+
+}
