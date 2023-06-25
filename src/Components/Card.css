@@ -1,5 +1,6 @@
 .container {
     width: 200px;
+    margin: auto;
 }
 
 .unlimited {
@@ -42,7 +43,7 @@ sup {
 }
 
 .unlimited_blue {
-    background-color: rgb(53, 169, 227);
+    background-color: rgb(82, 148, 181);
 }
 
 .price_blue {

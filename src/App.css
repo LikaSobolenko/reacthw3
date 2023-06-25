@@ -6,6 +6,8 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
   gap: 5px;
-  justify-content: space-between;
-  align-items: center;
+}
+
+.wraper {
+  text-align: center;
 }
